@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ankur Chauhan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add graphql
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Ankur Chauhan\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Ankur Chauhan\AppData\Local\Programs\Python\Python38-32\;C:\Users\Ankur Chauhan\.windows-build-tools\python27\;C:\Users\Ankur Chauhan\AppData\Local\Microsoft\WindowsApps;C:\Users\Ankur Chauhan\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\src\flutter\flutter\bin;C:\Users\Ankur Chauhan\AppData\Local\Programs\Python\Python38-32\Scripts;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.1\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "graphql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon -w src --ext ts --exec ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "apollo-server": "^2.14.3",
+      "reflect-metadata": "^0.1.13",
+      "sqlite3": "^4.2.0",
+      "type-graphql": "^1.0.0-rc.2",
+      "typeorm": "^0.2.25"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4",
+      "ts-node": "^8.10.2",
+      "typescript": "^3.9.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
